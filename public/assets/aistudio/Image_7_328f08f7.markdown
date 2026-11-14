@@ -1,0 +1,254 @@
+---
+name: Bengaluru Metric Vanguard
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#464555'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#777587'
+  outline-variant: '#c7c4d8'
+  surface-tint: '#4d44e3'
+  primary: '#3525cd'
+  on-primary: '#ffffff'
+  primary-container: '#4f46e5'
+  on-primary-container: '#dad7ff'
+  inverse-primary: '#c3c0ff'
+  secondary: '#565e74'
+  on-secondary: '#ffffff'
+  secondary-container: '#dae2fd'
+  on-secondary-container: '#5c647a'
+  tertiary: '#005338'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#006e4b'
+  on-tertiary-container: '#67f4b7'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2dfff'
+  primary-fixed-dim: '#c3c0ff'
+  on-primary-fixed: '#0f0069'
+  on-primary-fixed-variant: '#3323cc'
+  secondary-fixed: '#dae2fd'
+  secondary-fixed-dim: '#bec6e0'
+  on-secondary-fixed: '#131b2e'
+  on-secondary-fixed-variant: '#3f465c'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 48px
+    fontWeight: '800'
+    lineHeight: 56px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  metric-num-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  metric-num-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 2rem
+  margin-sm: 1rem
+  margin-lg: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system drives a data-dense, analytical, yet consumer-accessible rental intelligence platform engineered specifically for Bengaluru's nuanced urban real estate landscape. The brand persona bridges the surgical rigor of high-velocity developer tools with the spatial elegance of premier discovery interfaces. It treats rental search not as mere classified listings, but as financial and lifestyle optimization—calculating True Monthly Cost of Living (TMCL) by weighing security deposits, maintenance overhead, peak commute delays via Outer Ring Road or Silk Board, water tanker dependencies, and BESCOM billing dynamics.
+
+The aesthetic philosophy is **Technical Editorial Modernism**:
+- **Information Density with Breathing Room:** Dense data matrices, tabular figures, and telemetry-style metrics balanced against generous typographic scale, crisp boundary lines, and pure optical alignment.
+- **Instrument-Grade UI:** Micro-indicators, precise hairline dividers, structured pill tokens, and tactile interactive controls mimic financial terminal precision while preserving consumer legibility.
+- **Contextual Clarity:** Color is reserved strictly for operational telemetry—emerald for fiscal savings, indigo for high-priority actions, amber for municipal or traffic friction, and rose for volatility risks. Surfaces stay neutral and restrained to allow analytical comparisons to dominate.
+
+## Colors
+
+The palette leverages high-contrast structural darks against crisp laboratory lights, with specialized semantic channels for telemetry and risk assessment.
+
+### Core Hierarchy
+- **Canvas Base:** `#FFFFFF` for primary cards and floating overlays; `#F8FAFC` for page canvas, background scaffolding, and split-screen map containers.
+- **Structural Nav & Headers (Secondary):** `#0F172A` delivers authoritative anchor points across top-level navigation, hero banners, metric cards, and data comparison headers.
+- **Action Indigo (Primary):** `#4F46E5` serves as the primary action engine for CTAs, selected filter pills, active chart series, and focal interactive elements. Electric Blue (`#3B82F6`) functions as an interactive hover or active state alongside it.
+- **Slate Neutrals:** Tiered for typographic contrast and structure:
+  - Text Primary: `#0F172A`
+  - Text Secondary: `#334155`
+  - Text Muted: `#64748B`
+  - Borders & Dividers: `#E2E8F0`
+  - Subtle Surface Fills: `#F1F5F9`
+
+### Semantic Telemetry
+- **Emerald Growth & Savings (`#10B981`):** Applied exclusively to positive financial variance, below-market rent delta, high SmartMatch ratings (85+), and sustainable borewell/cauvery water indicators.
+- **Amber Warning (`#F59E0B`):** Flags peak-hour tech corridor commute friction, recurring seasonal water tanker surcharges, and high advance security deposits.
+- **Rose Friction (`#EF4444`):** Indicates extreme traffic choke points, non-refundable deposit penalties, structural maintenance liabilities, and legal verification mismatches.
+
+## Typography
+
+The type system blends **Plus Jakarta Sans** for expressive, contemporary headings with the systematic legibility of **Inter** for dense data, interface controls, and financial models.
+
+- **Tabular Figures:** All numeric displays (rupee totals, monthly deltas, square footage, distance times, and match ratings) must render using `font-feature-settings: "tnum" 1, "cv05" 1`. This aligns currency values across ledger rows and comparison tables without baseline jitter.
+- **Letter Spacing:** Tighter negative tracking (`-0.02em` to `-0.03em`) is enforced on large displays to maintain structural authority. Micro-labels (`label-sm`) require positive tracking (`0.04em`) with uppercase transforms for section tags and status stamps.
+- **Dynamic Mobile Reflow:** Headlines scale down automatically via responsive tokens above 32px to protect data card horizontal margins on compact screens.
+
+## Layout & Spacing
+
+Layouts adhere to an 8pt structural rhythm within a 12-column adaptive fluid grid framework (max container width 1440px):
+
+- **Desktop (1024px+):** 12 columns with `2rem` gutters and `3rem` canvas margins. Supports split-view viewports (55% interactive mapping and analytics pane; 45% infinite-scroll property cards and TMCL comparison engine).
+- **Tablet (768px - 1023px):** 8 columns with `1.5rem` gutters and `2rem` outer margins. Comparison matrix tables shift to horizontal slide-cards with frozen first-column property handles.
+- **Mobile (Below 768px):** 4 columns with `1rem` gutters and `1rem` margins. Split-screen transforms into stacked views with a floating bottom navigation bar and expandable drawer sheets for metric breakdowns.
+- **Data Gap Rhythm:** Component-level metrics enforce strict `space-xs` (4px) micro-spacing between currency symbols and values, `space-sm` (8px) between metric labels and readout values, and `space-md` (16px) for inner card content clusters.
+
+## Elevation & Depth
+
+Visual hierarchy uses **tonal layering and micro-diffused ambient shadows** rather than heavy drop-shadows, maintaining a clean architectural baseline.
+
+- **Level 0 (Flat Ground):** Background `#F8FAFC`. Zero elevation. Demarcated strictly through `#E2E8F0` 1px borders.
+- **Level 1 (Resting Cards):** `#FFFFFF` surfaces with a 1px border of `rgba(15, 23, 42, 0.06)` combined with an ambient shadow: `box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.02)`.
+- **Level 2 (Hover & Active Comparisons):** Interactive listings and matrix focus states lift via: `box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.05), 0 4px 6px -4px rgba(15, 23, 42, 0.02)`. Border accent shifts dynamically to `#CBD5E1`.
+- **Level 3 (Floating Overlays & Popovers):** Intelligence callouts, custom range filter sheets, and map hover pins: `box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)`.
+- **Frosted Translucency (Header Navigation & Map HUDs):** Applied using `rgba(255, 255, 255, 0.82)` with `backdrop-filter: blur(12px)` and a subtle bottom divider `rgba(226, 232, 240, 0.8)`.
+
+## Shapes
+
+The design system adopts a balanced **Rounded (Level 2)** geometry to pair analytical rigor with modern consumer accessibility:
+
+- **Standard Cards, Panels & Matrices:** `0.5rem` (8px) radius creates clean, orderly grids without childish softness.
+- **Large Modals, Sheets & Hero Containers:** `rounded-lg` at `1rem` (16px) softens large visual boundaries.
+- **Interactive Badges, Metric Chips & Sliders:** Full circular pill radii (`9999px`) distinguish transient operational tags from layout containers.
+- **Borders:** Consistent 1px solid stroke width across cards, nested tables, and controls. Focus states introduce an outer 2px offset ring (`#4F46E5`).
+
+## Components
+
+### Buttons & Interactive Controls
+- **Primary Action:** Solid `#4F46E5` fill, `#FFFFFF` text, `0.5rem` radius, bold label. Hover transforms to `#4338CA`. Active states drop by 0.5% scale for tactile response.
+- **Secondary Surface:** Slate-tinted `#F1F5F9` background, `#0F172A` text, 1px border (`#E2E8F0`).
+- **Dark Anchor Action:** Solid `#0F172A` fill with `#FFFFFF` text, utilized for primary financial commitments or deep-dive exports.
+
+### Metric Badges & Chips
+- Compact pills (`label-sm`, uppercase, font-weight 600) with a tinted background (10% alpha of semantic color) and solid foreground text:
+  - *Savings / SmartMatch High:* Background `rgba(16, 185, 129, 0.12)`, text `#047857`.
+  - *Commute Friction:* Background `rgba(245, 158, 11, 0.12)`, text `#B45309`.
+  - *Risk Factor:* Background `rgba(239, 68, 68, 0.12)`, text `#B91C1C`.
+
+### SmartMatch Radial Indicators
+- Dual-stroke circular progress wheels (SVG):
+  - Inactive base track: 3px stroke of `#E2E8F0`.
+  - Progress arc: 3px stroke with stroke-linecap round. Gradient fill dynamically interpolates from `#3B82F6` (70–84 score) to `#10B981` (85–100 score).
+  - Center: Tabular score rendered in `metric-num-md` with an adjacent `%` suffix in `label-sm`.
+
+### Multi-Variable Priority Sliders
+- Linear track (4px height) in `#E2E8F0` with colored progress fill in `#4F46E5`.
+- Circular thumb: 18px diameter, solid `#FFFFFF`, 2px solid `#4F46E5`, elevated with Level 1 shadow.
+- Interactive tooltip anchors directly above the thumb showing live variables (e.g., "Commute: < 35 min" or "Deposit: < 3 Months").
+
+### TMCL Expense Breakdown Donut
+- Multi-segment SVG ring with centered monthly aggregate (`₹/mo`).
+- Segments partitioned strictly: Base Rent (`#0F172A`), Deposit Opportunity Cost (`#4F46E5`), Commute Fuel/Cab (`#F59E0B`), Maintenance & Water Tanker Surcharges (`#3B82F6`), BESCOM & Internet (`#94A3B8`).
+
+### Side-by-Side Locality Comparison Matrix
+- Modular multi-column grid with a sticky feature label spine on the left.
+- Alternating subtle row zebra striping (`#FFFFFF` to `#F8FAFC`).
+- High-efficiency difference callouts: cells compute instant delta against user baseline (e.g., *"+₹4,200/mo vs HSR Sector 2"* tagged in Rose or Emerald).
+
+### AI Insight Callout Cards
+- Ambient container with a left border accent (3px solid `#4F46E5`) over a subtle gradient surface (`linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%)`).
+- Header includes a micro spark-icon followed by uppercase `label-sm` text (*NAMMA INTEL INSIGHT*).
+- Concise analytical recommendations with embedded bold tokens indicating commute choke points or seasonal rental price drops.

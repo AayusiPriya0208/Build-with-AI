@@ -1,0 +1,6 @@
+{
+  "name": "NammaRent Intel",
+  "description": "Bengaluru rental intelligence platform calculating True Monthly Cost of Living (TMCL), peak tech corridor commutes, water reliability, and AI-powered SmartMatch scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
